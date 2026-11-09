@@ -22,6 +22,16 @@ AI 做界面最常见的两个毛病：
 
 ## 安装
 
+### 一句话安装
+
+把下面这段话直接发给你的 AI 编程助手（Claude Code、Codex、Cursor 等）：
+
+```text
+帮我安装 clean-ui 这个 skill：https://github.com/4646with/clean-ui 。先判断你自己是哪个工具：Claude Code 就 clone 到 ~/.claude/skills/clean-ui，Codex 就 clone 到 ~/.codex/skills/clean-ui，其他支持 SKILL.md 的工具放进它的 skills 目录；不支持 skill 的工具，把 SKILL.md 和 references/ 的要点合并进当前项目的规则文件（如 AGENTS.md 或 .cursor/rules）。装完告诉我装在哪，以及以后怎么触发它。
+```
+
+### 手动安装
+
 **Claude Code**
 
 ```bash
